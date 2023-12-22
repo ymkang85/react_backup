@@ -1,0 +1,46 @@
+myportfolio 도면
+
+1. public
+ - index.html
+2. src
+ 1) assets
+   (1) shard
+	- dark.png
+	- light.png
+ 2) components
+   (1) button
+	- Button.tsx
+   (2) incomp
+	- Logo.tsx
+   - Footer.tsx
+   - Header.tsx
+ 3) modules
+   - Linkinterface.tsx
+ 4) nav
+   - Nav.tsx
+   - NavButton.tsx
+   - NavLinks.tsx
+ 5) pages
+   (1) about
+	- About.tsx
+   (2) contact
+	- Contact.tsx
+   (3) home
+	- Categories.tsx
+	- Features.tsx
+	- Hero.tsx
+	- Home.tsx
+   (4) location
+	- Location.tsx
+   Routes.tsx
+ 6) styles
+   - GlobalStyle.tsx
+   - theme.tsx
+ - App.tsx
+ - index.tsx
+ - ScrolltoTop.tsx
+
+ - setupTests.ts(사용x)
+ - App.css(사용x)
+ - App.test.tsx(사용x)
+ - index.css(사용x)

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if pass_ok == "ok" %}
+    <p>이 페이지는 회원로그인이 된 회원만 볼 수 있습니다. </p>
+    {% else %}
+    <p>회원페이지입니다. </p>
+    <a href="/">회원로그인</a>
+    {% endif %}
+
+</body>
+</html>

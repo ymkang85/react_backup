@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            margin: 30px;
+        }
+        form{
+            width: 600px;
+            margin: 15px auto;
+            border: 1px solid #333;
+            padding: 30px;
+        }
+        div{
+            margin: 15px;
+        }
+        div input{
+            width: 95%;
+            padding: 10px;
+        }
+        p{
+            width: 350px;
+            margin: 0 auto;
+            color: red;
+        }
+        .chkbox{
+            width: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>회원 로그인 </h1>
+    <p>{{error}}</p>
+    <form name="form" method="post">
+        <div class="container">
+            <input type="text" name="user" placeholder="아이디" value="{{user}}">
+        </div>
+        <div>
+            <input type="password" name="pass" placeholder="비밀번호">
+        </div>
+        <div style="text-align: center">
+            <input type="checkbox" class="chkbox"> 로그인 상태 유지
+            <button>전송</button>
+        </div>
+        <a href="/pg2">회원전용 페이지 이동</a>
+    </form>    
+</body>
+</html>

@@ -1,0 +1,11 @@
+body{
+  margin:0;
+}
+.title{
+  font-size: 30px;
+  color:green;
+  font-weight: bold;
+}
+.header{
+  background-color: yellow;
+}

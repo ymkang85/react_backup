@@ -1,0 +1,22 @@
+import React, { useEffect } from 'react'
+
+const Counter = (props) => {
+    useEffect(()=>{
+        const ct = setInterval(()=>{
+            console.log("카운터 실행");
+        }, 1000);
+        return ()=>{
+            clearInterval(ct);
+            console.log("카운터 종료됨");
+        }
+        
+    },[]);
+  return (
+    <div>
+        <h1>Conter</h1>
+        <p>콘솔에서 확인</p>
+    </div>
+  )
+}
+
+export default Counter

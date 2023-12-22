@@ -1,0 +1,36 @@
+/*############################ HEADER ##################################*/
+.nav-header{
+  height: 50px;
+}
+.title{
+  color:rgb(75, 130, 225);
+  font-weight: bold;
+}
+.btn{
+  margin-right: 20px;
+  float: right; 
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: rgb(41, 75, 168);
+  font-weight:bold;
+}
+.btn1{
+  float: right;
+}
+
+h1{
+  text-align: left;
+  color:rgb(10, 180, 69)
+}
+.main1{
+  height: 450px;
+  background-color: rgb(75, 130, 225);
+}
+.main2{
+  text-align: center;
+}
+.image{
+  width:550px;
+  margin : 10px;
+}
